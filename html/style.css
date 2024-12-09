@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 50, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#inventory-container {
+    background-color: #1e90ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+#inventory-container h1 {
+    margin-bottom: 20px;
+}
+
+#inventory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#inventory-list li {
+    background-color: #4682b4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #104e8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b3d91;
+}
